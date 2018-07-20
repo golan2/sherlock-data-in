@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="golan.sherlock.datain" />
+        <module name="golan.sherlock.ingestion" />
+        <module name="golan.sherlok.ingestion" />
+        <module name="neo.spark.query.engine" />
+        <module name="sherlock-data-in" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="golan.sherlock.datain" target="1.8" />
+      <module name="golan.sherlock.ingestion" target="1.8" />
+      <module name="golan.sherlok.ingestion" target="1.8" />
+      <module name="neo.spark.query.engine" target="1.8" />
+      <module name="sherlock-data-in" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
